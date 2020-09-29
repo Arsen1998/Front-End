@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:400,500,600,700&display=swap&subset=cyrillic');
+*{
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    background: url('../image/bg.jpg') no-repeat;
+    background-size: cover ;
+}
+.wrapper{
+    justify-content: center;
+}
+.header{
+    transition: .6s;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 80%;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+}
+.nav-item{
+    display: flex;
+
+}
+.logo_unibot{
+    letter-spacing: 0.28em;
+}
+.nav-item a{
+    transition: .6s;
+    margin-left: 60px;
+}
+.nav-item a:hover{
+    color: orangered;
+}
+.info_block{
+    padding-top: 240px;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+.info_block h1{
+    font-weight: 600;
+    font-size: 64px;
+    
+}
+.button{
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: 24px;
+
+}
+.btn{
+    background: orangered;
+    border-radius: 7.5px;
+    padding: 18px 45px;
+}
+
