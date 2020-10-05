@@ -1,0 +1,35 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    background: url('../image/bg.jpg') no-repeat;
+    background-size: cover ;
+}
+.info_block{
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    color: white;
+    background: url(images/hand.png) repeat-y green;
+    opacity: 0.7;
+    
+    
+}
+.general{
+    font-size: 50px;
+    
+}
+.btn{
+    background: orangered;
+    border-radius: 7.5px;
+    padding: 18px 45px;
+    border-radius: 10px;
+}
+.button{
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 24px;
+    
+}
+table{
+    color: brown;
+}
