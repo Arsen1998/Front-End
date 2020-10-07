@@ -1,0 +1,75 @@
+.item{
+    width: 50px;
+    min-height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+body > div{
+
+}
+/* .container > *:not(:last-child){
+    margin-bottom: 5px;
+} */
+
+/* .container + div { 
+    width: 50px;
+    height: 50px;
+    background-color: red; 
+} */
+.mydiv ~ p{
+    color: red;
+}
+.item:nth-of-type(4){
+    align-self: start;
+}
+.item:nth-of-type(3){
+    align-self: stretch;
+    
+}
+
+.container{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
+.container1{
+    width: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item1{
+    min-width: 50px;
+    min-height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.item-wrap{
+    min-width: 250px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-wrap{
+    display: flex;
+    flex-flow: wrap;
+}
