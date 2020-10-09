@@ -1,0 +1,18 @@
+.square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px; /* 10px between elements */
+  }
+  
+  .circle {
+    background-color: green;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: block;
+    margin: auto;
+  }
