@@ -1,7 +1,5 @@
-*{
-    border-radius: 10px;    
-}
-
+* {
+    border-radius: 10px;
 }
 
 header {
@@ -10,7 +8,6 @@ header {
     display: flex;
     background-color: blue;
     margin: 5px;
-
 }
 
 header p {
@@ -24,30 +21,20 @@ main {
     display: flex;
     background-color: rgb(6, 143, 6);
     margin: 5px;
-    
-
-
 }
 
 main p {
     color: white;
     font-size: 30px;
-    
-    
-
 }
 
 main .items {
     height: 250px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 60px;
-    
     flex-flow: wrap;
-
-
 }
 
 main .items div {
@@ -57,10 +44,6 @@ main .items div {
     margin: 10px;
     background-color: rgb(8, 90, 8);
     padding: 20px;
-    
-    
-    
-
 }
 
 footer {
@@ -69,16 +52,14 @@ footer {
     display: flex;
     background-color: blue;
     margin: 5px;
-
-
 }
 
 footer p {
     color: white;
     font-size: 30px;
-
 }
-main .items1{
+
+main .items1 {
     color: white;
     font-size: 30px;
     display: flex;
@@ -88,6 +69,5 @@ main .items1{
     justify-content: left;
     border: 1px solid black;
     justify-content: center;
-    
-
+    top: 15px;
 }

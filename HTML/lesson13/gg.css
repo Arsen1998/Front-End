@@ -1,0 +1,25 @@
+.div1, .div2, .div3 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.div1 {
+    background-color: mediumvioletred;
+}
+
+.div2 {
+    background-color: rebeccapurple;
+    z-index: 1;
+}
+
+.div3 {
+    background-color: saddlebrown;
+}
+
+.div1 div {
+    width: 30px;
+    height: 30px;
+    background-color: forestgreen;
+}
