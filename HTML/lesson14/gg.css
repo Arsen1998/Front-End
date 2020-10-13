@@ -1,0 +1,44 @@
+
+.div1, .div2, .div3,.div4{
+    display: inline-block;
+    width: 100px;
+    height: 100px; 
+    box-shadow: 0px 0px 10px 5px black;
+    
+}
+
+.div1 {
+    background-color: blue;
+    position: relative;
+    top: 250px; left: 250px;;
+}
+  
+
+.div2 {
+    background-color:green;
+    position: relative;
+    top: 200px; left:100px;
+  
+    
+}
+
+.div3 {
+    background-color: red;
+    position: relative;
+    top: 150px; right: 50px;
+  
+}
+
+.div4{
+    background-color:yellow;
+    position: relative;
+    top: 100px; right: 200px;
+    
+}
+div{
+    background-color: rgb(26, 26, 26);
+    height: 500px;
+    width: 500px;
+}
+
+

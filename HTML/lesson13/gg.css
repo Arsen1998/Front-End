@@ -2,7 +2,7 @@
     display: inline-block;
     width: 100px;
     height: 100px;
-    position: absolute;
+    
 }
 
 .div1 {
@@ -11,7 +11,7 @@
 
 .div2 {
     background-color: rebeccapurple;
-    z-index: 1;
+    
 }
 
 .div3 {

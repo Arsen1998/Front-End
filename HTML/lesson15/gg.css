@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(194, 186, 186);
+}
+.div1, .div2, .div3,.div4{
+    display: inline-block;
+    width: 100px;
+    height: 100px; 
+    border-radius: 10px;
+    border: 10px solid white;
+    
+}
+
+.div1 {
+    background-color: rgb(190, 226, 160);
+    position: relative;
+    top: 300px; left: 170px;
+    width: 80px;
+    height: 80px;
+}
+  
+
+.div2 {
+    background-color:rgb(51, 137, 250);
+    position: relative;
+    top: 200px; left:270px;
+  
+    
+}
+
+.div3 {
+    background-color: orange;
+    position: relative;
+    top: 150px; right: 50px;
+    width: 250px;
+    height: 250px;
+    
+  
+}
+
+.div4{
+    background-color:rgb(159, 250, 95);
+    position: relative;
+    top: 80px; right: 380px;
+}
+.div5{
+    color: red;
+    top: 90px;
+    position: relative;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    left:  700px;
+    font-size: 35px; 
+}
+main{
+    left: 700px;
+    position: relative;
+    top: 1px;
+    font-size: 20px;
+
+}
