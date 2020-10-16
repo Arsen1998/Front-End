@@ -4,9 +4,6 @@
     padding: 0;
     
 }
-:root {
-    --box-size: 200px;
-}
 
 body {
     height: 100vh;
@@ -21,10 +18,7 @@ body {
     background-color: rgb(58, 88, 209);
     justify-content: space-around;
     align-items: center;
-    display: flex;
-   
-  
-    
+    display: flex; 
 }
 .box1 {
     background-color: rgb(253, 107, 107);
@@ -48,10 +42,7 @@ body {
     border-bottom: 100px solid rgb(89, 186, 221);
     animation-name:box2;  
     animation-duration: 2s; 
-    animation: box2 2s ease 0.3s infinite;
-    
-   
-    
+    animation: box2 2s ease 0.3s infinite;    
 }
 
 .box3 {
@@ -67,11 +58,8 @@ section{
     color:white;
     background-color: rgb(58, 88, 209) ;
     display: flex;
-    align-items: centers;
+    align-items: center;
     justify-content: center;
-    
-    
-   
 }
 
 @keyframes box1{

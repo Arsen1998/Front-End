@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+div {
+    width: 220px;
+    height: 120px;
+    background-color: pink;
+    
+}
+
+.box1 {
+    transform:translate(0px ) rotate(123deg);
+    background-color: skyblue;
+  }
+
+  section{
+    height: 91px;
+    width: 202px;
+    background-color: pink;
+    position: relative;
+    top: 250px;
+    
+   
+    
+  }
+  .box2{
+    transform:translate(0px ) rotate(123deg);
+    background-color: skyblue;
+    position: relative;
+    top: -14px;
+    width: 185px;
+    left: 8px;
+   
+  } 
+   .box3{
+      transform:translate(0px ) rotate(57deg);
+      background-color: rgb(158, 223, 158);
+      position: relative;
+      top: -135px;
+      width: 185px;
+      left: 8px;
+      
+  }
+  main{
+    height: 91px;
+    width: 202px;
+    background-color: pink;
+    position: relative;
+    top: 500px;
+
+  }
+  .box4{
+    transform:translate(0px ) rotate(123deg);
+    background-color: pink;
+    position: relative;
+    top: -14px;
+    width: 185px;
+    left: 8px;
+   
+  } 
+   .box5{
+      transform:translate(0px ) rotate(57deg);
+      background-color: pink;
+      position: relative;
+      top: -135px;
+      width: 185px;
+      left: 8px;
+      
+  }
+  footer{
+    height: 91px;
+    width: 201px;
+    background-color: pink;
+    position: relative;
+    top: 750px;
+
+  }
+  .box6{
+    transform:translate(0px ) rotate(123deg);
+    background-color: pink;
+    position: relative;
+    top: -14px;
+    width: 185px;
+    left: 8px;
+   
+  } 
+   .box7{
+      transform:translate(0px ) rotate(57deg);
+      background-color: pink;
+      position: relative;
+      top: -135px;
+      width: 185px;
+      left: 8px;
+      
+  }
+   .box8{
+      transform:translate(0px ) rotate(57deg);
+      background-color:skyblue;
+      position: relative;
+      top: -254px;
+      width: 185px;
+      left: 8px;
+      
+  }
+  .box9{
+      background-color: skyblue;
+      opacity: 0.5;
+      top: -425px;
+      position: relative;
+      width: 200px;
+      height: 220px;
+  }
