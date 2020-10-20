@@ -3,7 +3,6 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #6c7279;
-    background-color: yellow;
 }
 *,
 *::before,
@@ -44,30 +43,28 @@ p{
     justify-content: center;
     padding-top: 100px;
     height: 720px;
-    background:red url("img/intro-bg.jpg.jpg") center no-repeat;
+ background:red url("img/intro-bg.jpg.jpg") center no-repeat;
     background-size: cover;
+    /* transition:background-color 2s ease;
+    animation: anime 4s linear infinite; */
 }
 .header__inner{
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
-    
 }
 .intro__title{
-    margin: 0 0 30px;
+
     font-family: 'Open Sans' sans-serif;
     font-size: 65px;
-    color: white;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
     font-weight: 700;
-    text-transform: uppercase;
     text-align: center;
+    margin: 0 0 30px;
+    animation: mymove1 5s ;
 }
-.intro__subtitle{
-    font-size: 22px;
-    color: white;
-    font-weight: 400;
-    text-align: center;
-}
+
 
 .header__logo{
     animation: mymove 3s infinite;
@@ -75,4 +72,68 @@ p{
 @keyframes mymove {
     50% {opacity: 0;}
 }
+@keyframes mymove1 {
+    50% {opacity: 0;}
+}
+@keyframes anime{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(180deg);
+    }
+    100%{
+        filter: hue-rotate(0deg);
+    }
+}
 
+
+
+.intro__subtitle{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+
+.anim-typewriter{
+  animation: typewriter 8s steps(74) 1s 1 normal both,
+  blinkTextCursor  infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 41em;}
+}
+
+.features{
+    display: flex;
+    margin: 100px 0;
+}
+.features__item{
+    width: 33.33333%;
+    text-align: center;
+    padding: 0 30px;
+}
+.features__icon{
+    margin-bottom: 20px;
+}
+.features__title{
+    font-size: 14px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.features__text{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+
+}
