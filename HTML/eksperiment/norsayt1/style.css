@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    background-color: yellow;
+}
+*,
+*::before,
+::after{
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+p{
+    margin: 0 0 10px;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header__inner{
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+    align-items: center;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    height: 720px;
+    background:red url("img/intro-bg.jpg.jpg") center no-repeat;
+    background-size: cover;
+}
+.header__inner{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    
+}
+.intro__title{
+    margin: 0 0 30px;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 65px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.intro__subtitle{
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.header__logo{
+    animation: mymove 3s infinite;
+}
+@keyframes mymove {
+    50% {opacity: 0;}
+}
+
