@@ -44,8 +44,8 @@ p{
     justify-content: center;
     padding-top: 100px;
     height: 720px;
- background:red url("img/intro-bg.jpg.jpg") center no-repeat;
-    background-size: cover;
+    background:yellow url("img/intro-bg.jpg.jpg") center no-repeat ;
+    background-size: 1100px;
     background-attachment: fixed;
     /* transition:background-color 2s ease;
     animation: anime 4s linear infinite; */
@@ -141,4 +141,55 @@ p{
     color: #6c7279;
 
 }
+
+.works{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works__item{
+    height: 400px;
+    width: 33.33333%;
+    position: relative;
+    overflow: hidden;
+}
+.works__item:hover .works__content{
+    opacity: 1;
+}
+
+.works__photo{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: rotate3d(-50%,-50%, 0);
+}
+.works__content{
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    /* background-color:rgba(232, 69, 69, 0.9);
+    transition: opacity .2s linear; */
+}
+/* .works__title{
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.works__text{
+    font-size: 14px;
+    color: #fff;
+
+} */
 
