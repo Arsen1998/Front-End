@@ -46,6 +46,7 @@ p{
     height: 720px;
  background:red url("img/intro-bg.jpg.jpg") center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     /* transition:background-color 2s ease;
     animation: anime 4s linear infinite; */
 }
