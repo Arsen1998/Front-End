@@ -3,6 +3,7 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #6c7279;
+    background-color: yellow;
 }
 *,
 *::before,
@@ -58,7 +59,6 @@ p{
     font-family: 'Open Sans' sans-serif;
     font-size: 65px;
     color: rgb(255, 255, 255);
-    opacity: 0.5;
     font-weight: 700;
     text-align: center;
     margin: 0 0 30px;
@@ -109,31 +109,35 @@ p{
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 41em;}
+  to{width: 42em;}
 }
 
 .features{
     display: flex;
-    margin: 100px 0;
+    margin: 95px 0;
+    flex-wrap: wrap;
+    
 }
 .features__item{
     width: 33.33333%;
     text-align: center;
-    padding: 0 30px;
+    padding: 0 40px;
+    margin: 25px 0;
 }
 .features__icon{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .features__title{
-    font-size: 14px;
+    font-size: 34px;
     color: #2d3033;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .features__text{
-    font-size: 14px;
+    font-size: 24px;
     line-height: 1.5;
     color: #6c7279;
 
 }
+
