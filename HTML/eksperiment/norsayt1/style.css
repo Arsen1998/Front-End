@@ -68,7 +68,7 @@ p{
 
 
 .header__logo{
-    animation: mymove 3s infinite;
+    animation: mymove 5s infinite;
 }
 @keyframes mymove {
     50% {opacity: 0;}
@@ -124,7 +124,12 @@ p{
     text-align: center;
     padding: 0 40px;
     margin: 25px 0;
+    transition: 1s; /* Время эффекта */
 }
+.features__item:hover{
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
 .features__icon{
     margin-bottom: 25px;
 }
@@ -152,6 +157,9 @@ p{
     width: 33.33333%;
     position: relative;
     overflow: hidden;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    
 }
 .works__item:hover .works__content{
     opacity: 1;
@@ -178,7 +186,7 @@ p{
     height: 100%;
     z-index: 2;
     /* background-color:rgba(232, 69, 69, 0.9);
-    transition: opacity .2s linear; */
+    transition: opacity .2s linear;  */
 }
 /* .works__title{
     margin-bottom: 5px;
@@ -193,3 +201,61 @@ p{
 
 } */
 
+
+
+
+/* @keyframes animate {
+    0% {
+        transform: rotate(0deg) translateY(0px);
+        opacity: 1;
+        filter: blur(1px);
+    }
+    100% {
+        transform: rotate(0deg) translateY(-200px);
+        opacity: 0;
+        filter: blur(20px);
+    }
+}
+animation: animate 15s linear forwards; */
+.foto{
+    height: 0;
+    width: 0;
+    top: 60px;
+    left: 30px;
+    position: absolute;
+    animation: pulsing 5s infinite;
+}
+.foto2{
+    height: 0;
+    width: 0;
+    top: 60px;
+    left: 1295px;
+    position: absolute;
+    animation: pulsing 5s infinite;
+}
+
+.foto1{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 400px;
+}
+.foto3{
+    height: 0;
+    width: 0;
+   position: absolute;
+   top: 400px;
+   left: 1295px;
+}
+
+@keyframes pulsing {
+    0% {
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      transform: scale(0.7, 0.7);
+    }
+    100% {
+      transform: scale(0.5, 0.5);
+    }
+  }
