@@ -185,10 +185,10 @@ p{
     width: 100%;
     height: 100%;
     z-index: 2;
-    /* background-color:rgba(232, 69, 69, 0.9);
+    background-color:rgba(232, 69, 69, 0.9);
     transition: opacity .2s linear;  */
 }
-/* .works__title{
+.works__title{
     margin-bottom: 5px;
     font-size: 14px;
     color: #fff;
@@ -199,7 +199,7 @@ p{
     font-size: 14px;
     color: #fff;
 
-} */
+} 
 
 
 
