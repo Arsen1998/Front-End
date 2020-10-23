@@ -1,23 +1,24 @@
-body{
+body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #6c7279;
     background-color: yellow;
 }
-*,
-*::before,
-::after{
+
+*, *::before, ::after {
     box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
-p{
+
+p {
     margin: 0 0 10px;
 }
 
-.header{
+.header {
     height: 100px;
     width: 100%;
     position: absolute;
@@ -26,74 +27,80 @@ p{
     z-index: 1000;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
-.header__inner{
+
+.header__inner {
     display: flex;
     justify-content: center;
     padding: 35px 0;
     align-items: center;
 }
 
-.intro{
+.intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 100px;
     height: 720px;
-    background:yellow url("img/intro-bg.jpg.jpg") center no-repeat ;
+    background: yellow url("img/intro-bg.jpg.jpg") center no-repeat;
     background-size: 1100px;
     background-attachment: fixed;
     /* transition:background-color 2s ease;
     animation: anime 4s linear infinite; */
 }
-.header__inner{
+
+.header__inner {
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
 }
-.intro__title{
 
+.intro__title {
     font-family: 'Open Sans' sans-serif;
     font-size: 65px;
     color: rgb(255, 255, 255);
     font-weight: 700;
     text-align: center;
     margin: 0 0 30px;
-    animation: mymove1 5s ;
+    animation: mymove1 5s;
 }
 
-
-.header__logo{
+.header__logo {
     animation: mymove 5s infinite;
 }
+
 @keyframes mymove {
-    50% {opacity: 0;}
+    50% {
+        opacity: 0;
+    }
 }
+
 @keyframes mymove1 {
-    50% {opacity: 0;}
+    50% {
+        opacity: 0;
+    }
 }
-@keyframes anime{
-    0%{
+
+@keyframes anime {
+    0% {
         filter: hue-rotate(0deg);
     }
-    50%{
+    50% {
         filter: hue-rotate(180deg);
     }
-    100%{
+    100% {
         filter: hue-rotate(0deg);
     }
 }
 
-
-
-.intro__subtitle{
+.intro__subtitle {
     position: relative;
-    top: 50%;  
+    top: 50%;
     width: 24em;
     margin: 0 auto;
     text-align: center;
@@ -105,76 +112,84 @@ p{
     font-weight: 400;
 }
 
-.anim-typewriter{
-  animation: typewriter 8s steps(74) 1s 1 normal both,
-  blinkTextCursor  infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 42em;}
+.anim-typewriter {
+    animation: typewriter 8s steps(74) 1s 1 normal both, blinkTextCursor infinite normal;
 }
 
-.features{
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 42em;
+    }
+}
+
+.features {
     display: flex;
     margin: 95px 0;
     flex-wrap: wrap;
-    
 }
-.features__item{
+
+.features__item {
     width: 33.33333%;
     text-align: center;
     padding: 0 40px;
     margin: 25px 0;
-    transition: 1s; /* Время эффекта */
-}
-.features__item:hover{
-    transform: scale(1.2); /* Увеличиваем масштаб */
+    transition: 1s;
+    /* Время эффекта */
 }
 
-.features__icon{
+.features__item:hover {
+    transform: scale(1.2);
+    /* Увеличиваем масштаб */
+}
+
+.features__icon {
     margin-bottom: 25px;
 }
-.features__title{
+
+.features__title {
     font-size: 34px;
     color: #2d3033;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.features__text{
+
+.features__text {
     font-size: 24px;
     line-height: 1.5;
     color: #6c7279;
-
 }
 
-.works{
+.works {
     display: flex;
     flex-wrap: wrap;
 }
 
-.works__item{
+.works__item {
     height: 400px;
     width: 33.33333%;
     position: relative;
     overflow: hidden;
     border-bottom: 1px solid white;
     border-right: 1px solid white;
-    
 }
-.works__item:hover .works__content{
+
+.works__item:hover .works__content {
     opacity: 1;
 }
 
-.works__photo{
-
+.works__photo {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-    transform: rotate3d(-50%,-50%, 0);
+    transform: rotate3d(-50%, -50%, 0);
 }
-.works__content{
+
+.works__content {
     display: flex;
     opacity: 0;
     flex-direction: column;
@@ -186,24 +201,23 @@ p{
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-color:rgba(232, 69, 69, 0.9);
-    transition: opacity .2s linear;  */
+    background-color: rgba(232, 69, 69, 0.9);
+    transition: opacity .2s linear;
+    */
 }
-.works__title{
+
+.works__title {
     margin-bottom: 5px;
     font-size: 14px;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
 }
-.works__text{
+
+.works__text {
     font-size: 14px;
     color: #fff;
-
-} 
-
-
-
+}
 
 /* @keyframes animate {
     0% {
@@ -218,78 +232,38 @@ p{
     }
 }
 animation: animate 15s linear forwards; */
-.foto{
-    height: 0;
-    width: 0;
-    top: 60px;
-    left: 30px;
-    position: absolute;
-    animation: pulsing 5s infinite;
-}
-.foto2{
-    height: 0;
-    width: 0;
-    top: 60px;
-    left: 1295px;
-    position: absolute;
-    animation: pulsing 5s infinite;
+
+.team {
+    margin: 100px 0 70px;
 }
 
-.foto1{
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 400px;
-}
-.foto3{
-    height: 0;
-    width: 0;
-   position: absolute;
-   top: 400px;
-   left: 1295px;
+.team__inner {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 0 -15px; */
 }
 
-@keyframes pulsing {
-    0% {
-      transform: scale(0.5, 0.5)
-    }
-    50% {
-      transform: scale(0.7, 0.7);
-    }
-    100% {
-      transform: scale(0.5, 0.5);
-    }
-  }
+.team__item {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
 
-  .team{
-      margin: 100px 0 70px;
-  }
-  
-  .team__inner{
-      display: flex;
-      flex-wrap: wrap;
-      /* margin: 0 -15px; */
-  }
+.team__foto {
+    display: block;
+    min-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
 
-  .team__item{
-      width: 25%;
-      padding: 0 15px;
-      margin-bottom: 30px;
-  }
-  .team__foto{
-      display: block;
-      min-width: 100%;
-      height: auto;
-      margin-bottom: 20px;
-  }
-  .team__name{
-      margin-bottom: 8px;
-      font-size: 22px;
-      color: black;
+.team__name {
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: black;
+}
 
-  }
-  .team__text{
-      font-size: 14px;
-      line-height: 1.5;
-      color: #6c7279;
-  }
+.team__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+}
