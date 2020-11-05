@@ -48,7 +48,7 @@ p {
     padding-top: 100px;
     height: 720px;
     background: yellow url("img/intro-bg.jpg.jpg") center no-repeat;
-    background-size: 1300px;
+    background-size: 1100px;
     background-attachment: fixed;
     /* transition:background-color 2s ease;
     animation: anime 4s linear infinite; */
@@ -277,6 +277,5 @@ animation: animate 15s linear forwards; */
     align-items: center;
     width: 50px;
     height: 50px;
-    border: 1px solid #e8ecee;
     margin-right: 4px;
 }
