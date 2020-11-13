@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+    background-color: aliceblue;
+  }
+  .container {
+    display: inline-flex;
+    margin: 100px;
+  }
+  .container .card:not(:first-of-type) {
+    margin-left: -180px;
+  }
+  .container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 12px 0px #00000026;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+  .container .card:hover {
+    transform: translateY(-7%);
+    color: white;
+    background-image: linear-gradient(
+      83.53deg,
+      rgb(26, 222, 210) 2.82%,
+      rgb(136, 31, 215) 98.99%
+    );
+  }
+  .container .card:hover .list button {
+    border-color: white;
+    color: white;
+  }
+  .container .card:hover ~ .card {
+    transform: translateX(170px);
+  }
+  .container .card strong {
+    font-size: 42px;
+    margin-top: 50px;
+  }
+  .container .card .list button {
+    margin: 5px;
+    padding: 6px 15px;
+    border-radius: 9999px;
+    border: 1px solid #96c6f2;
+    background-color: transparent;
+  }
+
