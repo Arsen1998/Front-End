@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background:url("img/kanada.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.header{
+
+}
+.header__logo{
+
+}
