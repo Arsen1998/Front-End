@@ -1,4 +1,3 @@
-// buttons
 const btnScore = document.getElementById("score");
 const btnAccept = document.getElementById("accept");
 const btnReset = document.getElementById("reset");
@@ -27,6 +26,8 @@ const team = {
   changeScore() {
     this.goals.scored++;
     this.texts.score.innerText = this.goals.scored;
+    team1.goals.accepted++;
+    team1.texts.accept.innerText = team1.goals.accepted;
   },
   changeAccept() {
     this.goals.accepted++;
@@ -47,18 +48,13 @@ team.btns.reset.onclick = () => team.resetGoals();
 
 
 
-
-// buttons
-const btnScore = document.getElementById("score");
-const btnAccept = document.getElementById("accept");
-const btnReset = document.getElementById("reset");
-​
+const btnScore1 = document.getElementById("score1");
+const btnAccept1 = document.getElementById("accept1");
+const btnReset1 = document.getElementById("reset1");
 // texts
-const textScore = document.getElementById("score-text");
-const textAccept = document.getElementById("accept-text");
-​
-// team
-const team = {
+const textScore1 = document.getElementById("score-text1");
+const textAccept1 = document.getElementById("accept-text1");
+const team1 = {
   players: 11,
   subStitute: 5,
   goals: {
@@ -68,17 +64,19 @@ const team = {
   disqualified: 0,
   time: 0,
   btns: {
-    score: btnScore,
-    accept: btnAccept,
-    reset: btnReset,
+    score: btnScore1,
+    accept: btnAccept1,
+    reset: btnReset1,
   },
   texts: {
-    score: textScore,
-    accept: textAccept,
+    score: textScore1,
+    accept: textAccept1,
   },
   changeScore() {
     this.goals.scored++;
     this.texts.score.innerText = this.goals.scored;
+    team.goals.accepted++;
+    team.texts.accept.innerText = team.goals.accepted;
   },
   changeAccept() {
     this.goals.accepted++;
@@ -87,44 +85,14 @@ const team = {
   resetGoals() {
     this.goals.accepted = 0;
     this.goals.scored = 0;
-​
     this.texts.score.innerText = 0;
     this.texts.accept.innerText = 0;
   },
-  init() {
-    this.btns.score.onclick = () => this.changeScore();
-    this.btns.accept.onclick = () => this.changeAccept();
-    this.btns.reset.onclick = () => this.resetGoals();
-  },
 };
-​
-team.init();
-​
-// async JavaScript
-// sync JavaScript
-​
-// setTimeout(() => team.changeScore(), 3000);
-// setTimeout(() => team.changeAccept(), 4000);
-​
-// let id = setTimeout(() => team.changeScore(), 5000);
-// console.log(id);
-​
-// example
-// let id2 = setInterval(() => {
-//   if (team.goals.scored === 60) {
-//     clearInterval(id2);
-//   } else {
-//     team.changeScore();
-//   }
-// }, 100);
-​
-// example
-// const progress = document.getElementById("progress");
-​
-let id2 = setInterval(() => {
-  if (progress.value >= 50) {
-    clearInterval(id2);
-    return;
-  }
-  progress.value += 0.1;
-}, 10);
+
+team1.btns.score.onclick = () => team1.changeScore();
+team1.btns.accept.onclick = () => team1.changeAccept();
+team1.btns.reset.onclick = () => team1.resetGoals();
+
+
+
