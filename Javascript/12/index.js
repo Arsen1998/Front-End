@@ -96,3 +96,16 @@ team1.btns.reset.onclick = () => team1.resetGoals();
 
 
 
+let id2 = setInterval(() => {
+  if (progress.value >= 100) {
+    clearInterval(id2);
+    return;
+  }
+  progress.value += 0.1;
+}, 10);
+
+function sayHi() {
+  alert('Game over!');
+}
+
+setTimeout(sayHi, 10000);

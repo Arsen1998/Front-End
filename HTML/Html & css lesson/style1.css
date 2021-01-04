@@ -1,0 +1,45 @@
+body{
+    margin: 0;/*Grvuma nra hamar vor nkari vra avelord margin chlini*/
+    background: url("img/pattern.png");/*Sra mijocov menq nkarov fon enq talis*/
+}
+
+
+.card{
+    width: 400px;/*Sa mer bloki laynutyunne*/
+    margin: 30px auto;/*kochvum e artaqin hatum,0-n verevic ev nerqevic a grvum ayn chi texasharjvum,
+    isk auton ajic cax,ayn kberi mejtex*/
+    background-color: white;/*Mer nkari fonn e*/
+    box-shadow: 0 5px 10px;/*shoxqna mer bloki*/
+    border-radius: 10px;/*Dra mijocov kloracnum enq bloki cayrer@*/
+    padding: 20px;/*Nkar@ arancnacnum enq mer bloki 4 koxmeric 20 pixelov*/
+
+}
+
+.card-photo{
+    display: block;/*qcum enq block vor nor toxic sksvi*/
+    height: 200px;/*Barrutyun*/
+    width: 200px;/*Laynutyun*/
+    margin: 0 auto;/*Nkar@ dnum enq bloki mejtex@*/
+    border-radius: 50%;/*Nkar@ kloranuma*/
+}
+
+.card-title{
+    font-size: 20px;/*Mecutyun texti*/
+    text-align: center;/*Text@ berum enq kentron*/
+    color: yellowgreen;/*Texti guyn*/
+}
+
+.card-text{
+    font-size: 14px;/*Texti Chaps*/
+}
+
+.card-subtitle{
+    font-size: 18px;/*Texti Chaps*/
+    color: blue;/*Texti Guyn*/
+}
+
+.card-list{
+    padding-left: 0;/*kpcnum enq cax masin*/
+    list-style-position: inside;/*Keterov havasarecnum enq toxin*/
+    font-size: 14px;/*Texti Chaps*/
+}

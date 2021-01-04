@@ -1,0 +1,12 @@
+body{
+    background-color: #efefef;/*Sa mer eji fonn e*/
+    font-family: Tahoma;/*Kochvum e taratesakneri @ntaniq,body mijocov menq kpanq mer ejum grac textin,
+     ev poxecinq nra cev@*/
+     line-height: 1.5;/*Ays funkcian arancnacum e bareri mijev heravorutyun@,
+     vor ayn aveli parz kardacvi*/
+     font-size: 18px;
+}
+.title{
+    font-size: 45px;/*Texti mecutyun*/
+    color: red;/*Texti guyn*/
+}
