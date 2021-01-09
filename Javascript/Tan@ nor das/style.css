@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    
+    background-color: chocolate;
 }
 
 *,
@@ -60,9 +60,6 @@ body {
     text-align: center;
 }
 
-.section--gray {
-    background-color: #f8f8f8;
-}
 
 .section__title{
     font-size: 50px;
